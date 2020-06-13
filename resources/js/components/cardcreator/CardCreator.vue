@@ -8,10 +8,10 @@
             <div class="card-back" v-if="currentSide === 'back'">
                 <CardBack></CardBack>
             </div>
+            <div @click="flip"
+                 :class="['flipper', {'flipper-left':currentSide === 'front', 'flipper-right': currentSide === 'back'}]"
+            >{{ flipIcon }}️</div>
         </div>
-        <div @click="flip"
-             :class="['flipper', {'flipper-left':currentSide === 'front', 'flipper-right': currentSide === 'back'}]"
-        >{{ flipIcon }}️</div>
 
     </div>
 </template>
