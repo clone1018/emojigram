@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "@joeattardi/emoji-button": "^3.1.1",
-        "axios": "^0.19",
+        "axios": "^0.21",
         "bootstrap": "^4.0.0",
         "bulma": "^0.9.0",
         "cross-env": "^7.0",
